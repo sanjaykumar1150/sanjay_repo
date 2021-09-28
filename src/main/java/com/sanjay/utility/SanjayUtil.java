@@ -16,8 +16,13 @@ public class SanjayUtil {
 	
 	public String getUpperCase(String inputStr) {
 		String upperCase = null;
-		
 		upperCase = inputStr.toUpperCase();
+		return upperCase;
+	}
+	
+	public String getLowerCase(String inputStr) {
+		String upperCase = null;
+		upperCase = inputStr.toLowerCase();
 		return upperCase;
 	}
 
