@@ -15,7 +15,7 @@ public class DemoApplication {
 		ConfigurableApplicationContext ctx = SpringApplication.run(DemoApplication.class, args);
 		
 		SanjayUtil util = ctx.getBean(SanjayUtil.class);
-		
+		System.out.println("Hello");
 		String upperCase = util.getUpperCase("sanjay");
 		System.out.println(upperCase);
 	}
